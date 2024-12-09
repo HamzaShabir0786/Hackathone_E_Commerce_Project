@@ -3,8 +3,8 @@ export default function Header() {
     <>
       <div className="h-[136px] w-[1439px] bg-white m-auto flex flex-col ">
         <div className="w-[1439px] h-[58px] bg-[#252B42] m-auto flex items-center mb-2 ">
-          <div className="w-[1438px] h-[46px]  flex justify-between px-[24px]">
-            <div className="w-[415px] h-[46px] gap-[10px] flex items-center">
+          <div className="w-[100%] h-[46px]  flex justify-between px-[24px] bg-red-900">
+            <div className="w-[auto] h-[46px] gap-[10px] flex items-center bg-blue-300">
               <div className="flex items-center gap-2">
                 <i className="fa-solid fa-phone text-white"></i>
                 <h6>(225)555-0118</h6>
@@ -14,12 +14,12 @@ export default function Header() {
                 <h6>hamzii2205@gmail.com</h6>
               </div>
             </div>
-            <div className=" w-[332px] h-[44px] p-[10px] gap-[10px]">
+            <div className=" w-[auto] bg-pink-300 h-[44px] p-[10px] gap-[10px]">
               <h6 className="font-[Montserrat] font-[700] text-[14px] tracking-[0.2px] leading-[24px]">
                 Follow Us and get a chance to win 80% off
               </h6>
             </div>
-            <div className="w-[233px] h-[46px] p-[10px] gap-[10px] flex ">
+            <div className="w-[auto]  bg-amber-600 h-[46px] p-[10px] gap-[10px] flex ">
               <h6 className="font-[montserrat] font-[900px] text-[14px] leading-[24px] text-white">
                 Follow US:
               </h6>

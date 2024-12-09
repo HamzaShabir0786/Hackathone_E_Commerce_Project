@@ -1,16 +1,9 @@
-// import Image from "next/image";
-
-import ShopCard from "./shopCard/ShopCard";
-import FeaturedProducts from "./featuredProducta/page";
-import VitalClassic from "./vitalClassic/page";
-import Fluid from "./containerFluid/page";
-import FeaturedPost from "./featuredPost/page";
-export default function Home() {
+export default function VitalClassic() {
   return (
     <>
-      <div className="w-[1439px] h-[716px] m-auto landing-bg">
+      <div className="w-[1439px] h-[716px] m-auto bg-[#23856d] ">
         <div className="w-[1044px] h-[651px] mt-[48px] absolute ml-[197.5px] gap-[80px]  flex items-center">
-          <div className="h-[427px] w-[1044px] py-[48px]  gap-[30px] ">
+          <div className="h-[427px] w-[509px]  py-[48px]  gap-[30px] ">
             <div className="w-[599px] h-[331px] gap-[35px]  flex flex-col justify-between">
               <h5 className="text-white font-bold text-[16px] ">Summer 2024</h5>
               <h1 className="font-weight text-[58px] font-bold text-[#fafafa]">
@@ -29,13 +22,10 @@ export default function Home() {
               </div>
             </div>
           </div>
+
+          <div className="x landing-bg-classic h-[427px] w-[509px]">j</div>
         </div>
       </div>
-      <ShopCard />
-      <FeaturedProducts />
-      <VitalClassic />
-      <Fluid />
-      <FeaturedPost/>
     </>
   );
 }
